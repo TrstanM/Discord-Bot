@@ -20,7 +20,7 @@ intents = nextcord.Intents.default()
 intents.message_content = True
 client = commands.Bot(command_prefix="$", intents = intents)
 
-#testingServerID = 1058677478291423292
+
 
 #Accesses JSON file with keys
 config = responses.get_config()
